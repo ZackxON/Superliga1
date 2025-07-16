@@ -101,10 +101,11 @@
     .section-title a:hover {
       text-decoration: underline;
     }
-    .footer {
+  
+.footer {
   background-color: #095c84;
   color: white !important;
-  padding: 10px 15px;
+  padding: 8px 15px;
   text-align: center;
   font-size: 0.8em;
   position: relative;
@@ -112,23 +113,23 @@
   box-sizing: border-box;
 }
 
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .footer * {
   color: white !important;
-
-.footer a {
   text-decoration: none;
-  margin: 0 5px;
-}
-
-.footer p {
-  margin: 5px 0;
-}
-
+  
 .footer a:hover {
   color: #ccefff !important;
 }
 
-.footer .icon {
+.icon {
   width: 16px;
   height: 16px;
   vertical-align: middle;
@@ -205,16 +206,15 @@
 </div>
 
 <footer class="footer">
-  <p>Asociación Independiente de Handball Jalisciense — AIHJ</p>
-  <p>
-    Síguenos en:
+  <div class="footer-content">
+    <span>Asociación Independiente de Handball Jalisciense — AIHJ</span>
+    <span class="social-icons">
     <a href="https://www.facebook.com/share/18dHPUzoZQ/?mibextid=wwXIfr" target="_blank"><img src="facebook.PNG" alt="Facebook" class="icon"></a>
     <a href="https://www.instagram.com/aihj_superliga?igsh=MWdhb29la2M2Mjd1&utm_source=qr" target="_blank"><img src="instagram.PNG" alt="Instagram" class="icon"></a>
     <a href="https://whatsapp.com/channel/0029Vb5XrewKmCPSNj4SXr3j" target="_blank"><img src="whatsapp.PNG" alt="Whatsapp" class="icon"></a>
-  </p>
-  <p>
+  </span>
+ </div>
 </footer>
-    
-</div>
+</div> 
 </body>
 </html>
